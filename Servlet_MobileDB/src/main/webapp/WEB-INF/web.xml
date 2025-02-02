@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<!-- Add Mobile Details in DataBase!! -->
+	<servlet>
+		<servlet-name>Add</servlet-name>
+		<servlet-class>com.rvk.servlet.AddMobileDB</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Add</servlet-name>
+		<url-pattern>/Add-Mobile</url-pattern>
+	</servlet-mapping>
+	<!-- Update Mobile Details in DataBase!! -->
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>com.rvk.servlet.UpdateMobileDb</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update-Mobile</url-pattern>
+	</servlet-mapping>
+	<!--  Delete Details in DataBase!! -->
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>com.rvk.servlet.DeleteMobileDb</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete-Mobile</url-pattern>
+	</servlet-mapping>
+	<!--  Find Details in DataBase!! -->
+	<servlet>
+		<servlet-name>Find</servlet-name>
+		<servlet-class>com.rvk.servlet.FindMobileDb</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Find</servlet-name>
+		<url-pattern>/Find-Mobile</url-pattern>
+	</servlet-mapping>
+	<!--  Find Details in DataBase!! -->
+	<servlet>
+		<servlet-name>Display</servlet-name>
+		<servlet-class>com.rvk.servlet.DisplayMobileDb</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Display</servlet-name>
+		<url-pattern>/Display-Mobile</url-pattern>
+	</servlet-mapping>
+</web-app>
